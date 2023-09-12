@@ -1,0 +1,251 @@
+/* Mobile Devices */
+@media only screen and (max-width: 600px) {
+  
+  .images{
+    gap: 40px;
+  }
+    .body {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .one img {
+      width: 90px;
+      height: 70px;
+    }
+    .links {
+      display: none;
+    }
+    .part-one {
+      justify-content: center;
+      display: block;
+      widows: 100%;
+    }
+    .text {
+      width: 100%;
+      display: block;
+      justify-content: center;
+    }
+    .headers {
+      max-width: 100%;
+      justify-content: space-around;
+    }
+    .her {
+      display: none;
+    }
+    .text img {
+      display: block;
+      width: 100%;
+    }
+    .link {
+      width: 100%;
+      margin-top: 10px;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+    .link a {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 14px;
+    }
+    .text h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+    .part-two {
+      display: block;
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .part-two .Text {
+      margin-left: 0px;
+      max-width: 100%;
+    }
+    .part-two .images {
+      padding-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .part-two .images img {
+      width: 40%;
+      padding-left: 5%;
+      height: 40px;
+    }
+    .flex {
+      display: block;
+    }
+    
+    .blocked {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    
+    .group-1 {
+      padding-top: 20px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      flex-direction: column;
+    }
+    
+    .tags {
+      justify-content: center;
+    }
+    .block h3{
+      font-size: 15px;
+    }
+    .block a{
+      font-size: 12px;
+    }
+    .container{
+      text-align: center;
+      width: 100%;
+    }
+    .flex{
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Small Tablets */
+  @media  screen and (min-width: 601px) and (max-width:998px) {
+    .images{
+      gap: 40px;
+    }
+    .flex{
+      flex-wrap: wrap;
+    }
+    .body {
+      padding-left: 10%;
+    }
+    .one img {
+      width: 90px;
+      height: 70px;
+    }
+    .links {
+      display: none;
+    }
+    .part-one {
+      justify-content: center;
+      display: block;
+      widows: 100%;
+    }
+    .text {
+      width: 100%;
+      display: block;
+      justify-content: center;
+      text-align: center;
+    }
+    .headers {
+      max-width: 100%;
+      justify-content: space-around;
+    }
+    .her {
+      display: none;
+    }
+    .text img {
+      display: block;
+      width: 100%;
+    }
+    .link {
+      margin-top: 10px;
+      display: flex;
+      text-align: center;
+      gap: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+    .link a {
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+    }
+    .text h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+    .part-two {
+      display: block;
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .part-two .Text {
+      margin-left: 0px;
+      max-width: 100%;
+    }
+    .part-two .images {
+      padding-top: 20px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      padding-left: 5%;
+    }
+    .part-two .images img {
+      width: 40%;
+      height: 50px;
+    }
+  
+  
+  .flex {
+    display: block;
+  }
+  
+  .blocked {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .group-1 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .tags {
+    justify-content: center;
+  }
+}
+@media  screen and (min-width: 768px) and (max-width:992px) {
+  .images{
+    gap: 40px;
+  }
+  .flex{
+    flex-wrap: wrap;
+  }
+   .part-two .images img{
+    height: 60px;
+   } 
+   .part-two .images{
+    padding-top: 5vh;
+   }
+}
+@media screen and (min-width:992px) and (max-width:1100px) {
+  .part-one h1{
+    font-size: 43px;
+  }
+  .part-two .Text h1{
+    font-size: 40px;
+  }
+  .part-two .Text p{
+    width: 100%;
+  }
+  .part-two .images img{
+    width: 120px;
+  }
+}
